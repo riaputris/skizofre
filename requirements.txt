@@ -5,4 +5,3 @@ streamlit
 pickle
 scikit-learn
 sklearn
-sklearn-pypi-package
