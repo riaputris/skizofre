@@ -271,10 +271,10 @@ def main() :
         
         # Map predictions to proper display format
         diagnosis_map = {
-            "Undifferentiated": {"code": 3, "desc": "Undifferentiated (Skizofrenia Tidak Terkhususkan)"},
-            "Paranoid": {"code": 0, "desc": "Paranoid (Skizofrenia Paranoid)"},
-            "Shizoaffective disorder, depressive type": {"code": 2, "desc": "Shizoaffective disorder, depressive type (Gangguan Skizoafektif Tipe Depresif)"},
-            "Severe depressive episode with psychotic symptoms": {"code": 1, "desc": "Severe depressive episode with psychotic symptoms (Episode Depresi Berat dengan Gejala Psikotik)"}
+            "Undifferentiated": {"code": 3, "desc": "Undifferentiated"},
+            "Paranoid": {"code": 0, "desc": "Paranoid"},
+            "Shizoaffective disorder, depressive type": {"code": 2, "desc": "Shizoaffective disorder, depressive type"},
+            "Severe depressive episode with psychotic symptoms": {"code": 1, "desc": "Severe depressive episode with psychotic symptoms"}
         }
         
         result = diagnosis_map[prediction]
